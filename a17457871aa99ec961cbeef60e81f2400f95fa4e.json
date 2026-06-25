@@ -259,7 +259,7 @@
   "comments": "",
   "proteobench_version": "0.13.2",
   "fixed_mods": "C[Carbamidomethyl]",
-  "variable_mods": "M ",
+  "variable_mods": "M[Oxidation]",
   "max_mods": 3,
   "min_precursor_charge": 2,
   "max_precursor_charge": 4,
