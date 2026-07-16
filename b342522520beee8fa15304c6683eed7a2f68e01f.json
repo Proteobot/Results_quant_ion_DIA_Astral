@@ -238,7 +238,7 @@
   "mean_abs_epsilon_precision_eq_species": 0.34447985655225805,
   "nr_feature": 139295,
   "comments": "",
-  "proteobench_version": "0.16.5",
+  "proteobench_version": "0.17.0",
   "old_new": "new",
   "fixed_mods": "C[Carbamidomethyl]",
   "variable_mods": "M[Oxidation], Protein N-term[Acetylation]",
@@ -254,6 +254,8 @@
   "abundance_normalization_ions": "No Normalization",
   "predictors_library": NaN,
   "scan_window": NaN,
+  "postprocessing_performed": false,
+  "postprocessing_description": NaN,
   "semi_enzymatic": false,
   "submission_comments": "\n\n ### No parameter changes detected. \n\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/b342522520beee8fa15304c6683eed7a2f68e01f/"
 }

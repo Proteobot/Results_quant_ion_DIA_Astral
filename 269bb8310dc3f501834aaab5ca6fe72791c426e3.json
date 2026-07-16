@@ -238,7 +238,7 @@
   "mean_abs_epsilon_precision_eq_species": 0.4011399520942914,
   "nr_feature": 111675,
   "comments": "",
-  "proteobench_version": "0.16.5",
+  "proteobench_version": "0.17.0",
   "old_new": "new",
   "fixed_mods": "C[Carbamidomethyl]",
   "variable_mods": "M[Oxidation]",
@@ -251,8 +251,10 @@
   "max_fragment_mz": 2000,
   "quantification_method": "QuantUMS high-precision",
   "protein_inference": "Genes",
-  "abundance_normalization_ions": "Cross-run normalization",
-  "predictors_library": NaN,
+  "abundance_normalization_ions": "RT-dependent normalization",
+  "predictors_library": "User defined speclib",
   "scan_window": 6,
+  "postprocessing_performed": false,
+  "postprocessing_description": NaN,
   "submission_comments": "\n\n ### Parameter changes detected:\n- **enzyme**: `cut` \u2192 `Trypsin/P`\n- **ident_fdr_peptide**: `None` \u2192 `nan`\n- **max_mods**: `None` \u2192 `nan`\n- **ident_fdr_protein**: `None` \u2192 `nan`\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/269bb8310dc3f501834aaab5ca6fe72791c426e3/"
 }
